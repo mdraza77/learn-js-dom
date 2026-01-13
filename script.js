@@ -30,8 +30,23 @@
 // a[-1] = 100;
 // console.log(a);
 
-function updateScore(score = 0) {
-    return score += 10;
-}
+// function updateScore(score = 0) {
+//     return score += 10;
+// }
 
-console.log(updateScore(60));
+// console.log(updateScore(60));
+// console.log(a);
+// let a = 5;
+
+// hello();
+
+// function hello() {
+//     console.log('Hello World!');
+// }
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let newArr = [...arr, 11, 12, 13];
+newArr.pop();
+const doubled = newArr.map(n => n * 2);
+console.log(doubled);
+console.log(newArr);
