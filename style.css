@@ -1,0 +1,22 @@
+#bulb {
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: gray;
+    color: black;
+}
