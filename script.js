@@ -44,9 +44,36 @@
 //     console.log('Hello World!');
 // }
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let newArr = [...arr, 11, 12, 13];
-newArr.pop();
-const doubled = newArr.map(n => n * 2);
-console.log(doubled);
-console.log(newArr);
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let newArr = [...arr, 11, 12, 13];
+// newArr.pop();
+// const doubled = newArr.map(n => n * 2);
+// console.log(doubled);
+// console.log(newArr);
+
+
+// console.log(newArr.reverse());
+
+// const result = array2 = newArr.map((n) => {
+//     return n * 2;
+// })
+
+// console.log(result);
+
+// const names = [
+//     {
+//         "id": 1,
+//         "name": "John",
+//     },
+//     {
+//         "id": 2,
+//         "name": "Jane",
+//     },
+// ];
+
+// const newNames = names.map(user => user.name)
+// console.log(newNames);
+
+// let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const evenNumbers = array.filter(n => n % 2 === 0);
+// console.log(evenNumbers);
